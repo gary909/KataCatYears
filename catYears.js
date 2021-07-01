@@ -18,15 +18,9 @@ var humanYearsCatYearsDogYears = function(humanYears) {
     } else {
         var catYears = 24;
         myArray[1] = (humanYears -2) * 4 + catYears;
-    
         var dogYears = 24;
         myArray[2] = (humanYears -2) * 5 + dogYears;
-    }
-
-
-    //return [0,0,0];
-    // return humanYears
-    
+    }    
     return myArray;
   }
 
