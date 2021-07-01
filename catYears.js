@@ -1,12 +1,3 @@
-function catYears(){
-    return "hello";
-}
-
-console.log(catYears())
-console.log("test")
-
-//*******************************/
-
 var humanYearsCatYearsDogYears = function(humanYears) {
     // Your code here!
     var myArray = [humanYears, 0, 0];
